@@ -16,7 +16,7 @@ class App extends React.Component {
     }
 
     componentDidMount() {
-        fetch('https://jsonplaceholder.typicode.com/posts/')
+        fetch('/data')
             .then(response => response.json())
             .then(entries => {
                 this.setState({
