@@ -3,6 +3,8 @@ import {render} from 'react-dom';
 
 import Items from './Components/Items';
 
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 class App extends React.Component {
     constructor() {
